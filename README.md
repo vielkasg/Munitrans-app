@@ -35,6 +35,9 @@ npm install
 npm run dev
 La app se ejecutará en: http://localhost:5173
 
+*USUARIO PARA PODER INGRESAR A LA APLICACION: vsanchez
+CLAVE: VSG0515*
+
 *Asegúrate de tener la API corriendo en paralelo.*
 
 Ejecutar pruebas automatizadas
