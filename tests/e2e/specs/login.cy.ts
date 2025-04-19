@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Login', () => {
     it('deberia iniciar sesion con un usuario valido', () => {
       cy.visit('/')
