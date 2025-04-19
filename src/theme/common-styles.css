@@ -1,0 +1,159 @@
+/* 
+  Estilos comunes para la aplicación Munitrans
+  Estos estilos se pueden usar en cualquier componente de la aplicación
+*/
+
+/* Estilos de cabecera y títulos */
+.page-header {
+  --background: transparent;
+  --border-color: transparent;
+}
+
+.page-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+.subsection-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0 0 8px 0;
+}
+
+/* Contenedores */
+.page-container {
+  padding: 0 16px;
+}
+
+.content-section {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* Tarjetas */
+.app-card {
+  background-color: var(--card-color);
+  border-radius: var(--border-radius-md);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+}
+
+.app-card:active {
+  transform: scale(0.98);
+  box-shadow: var(--shadow-sm);
+}
+
+.app-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0 0 12px 0;
+}
+
+.app-card-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0 0 4px 0;
+}
+
+.app-card-content {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+/* Iconos */
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: white;
+  font-size: 24px;
+}
+
+.icon-primary {
+  background-color: #4285f4;
+}
+
+.icon-danger {
+  background-color: #ea4335;
+}
+
+.icon-warning {
+  background-color: #fbbc04;
+}
+
+.icon-success {
+  background-color: #34a853;
+}
+
+/* Botones */
+.action-button {
+  --background: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.action-button-danger {
+  --background: #ea4335;
+}
+
+/* Texto con truncamiento */
+.truncate-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Animaciones */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Espaciado y alineación */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.mb-3 { margin-bottom: 24px; }

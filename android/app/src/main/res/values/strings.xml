@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">munitrans-app</string>
+    <string name="title_activity_main">munitrans-app</string>
+    <string name="package_name">tech.ayuntamiento.munitrans</string>
+    <string name="custom_url_scheme">tech.ayuntamiento.munitrans</string>
+</resources>

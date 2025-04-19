@@ -1,0 +1,36 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+:root {
+  --primary-color: #1a73e8;
+  --secondary-color: #4285f4;
+  --accent-color: #fbbc04;
+  --background-color: #f8f9fa;
+  --card-color: #ffffff;
+  --text-color: #202124;
+  --text-secondary: #5f6368;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
+}
+
+ion-content {
+  --background: var(--background-color);
+}
+
+.transparent-toolbar {
+  --background: transparent;
+  --border-color: transparent;
+}
+
+ion-button {
+  --background-hover: var(--secondary-color);
+  --border-radius: var(--border-radius-md);
+  --box-shadow: var(--shadow-md);
+  --padding-start: 20px;
+  --padding-end: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
